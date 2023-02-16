@@ -495,7 +495,24 @@ form .send-btn:hover {
   width: 99%;
 }
 
+.social {
+  display: grid;
+  align-items: center;
+  column-gap: 0.5rem;
+ background-color: black;
+}
 
+/* .social .bx {
+  font-size: 1.3rem;
+  padding: 10px;
+  border-radius: 50%;
+  color: var(--main-color);
+  background: var(--container-color);
+}
+.social .bx:hover {
+  background: var(--main-color);
+  transition: 0.3s all linear;
+} */
 
 /* Media Queries */
 
