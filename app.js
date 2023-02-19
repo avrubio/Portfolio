@@ -15,7 +15,7 @@ const sr = ScrollReveal({ distance: "60px", duration: 2500, reset: true });
 
 sr.reveal(".home-text", { delay: 200, origin: "top" });
 sr.reveal(".home-img", { delay: 400, origin: "top" });
-sr.reveal(".about, .service, .cta, .resume, .contact, .copyright", {
+sr.reveal(".about, .services, .cta, .resume, .contact, .copyright", {
   delay: 200,
   origin: "top",
 });
