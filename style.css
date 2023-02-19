@@ -359,7 +359,7 @@ section {
 
 .resume-content {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(450px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(28.125rem, 1fr));
   grid-gap: 3rem;
   align-items: center;
   margin-top: 4.4rem;
@@ -367,7 +367,7 @@ section {
 
 .box {
   background: rgb(227, 227, 227);
-  padding: 40px 30px;
+  padding: 2.5rem 1.875rem;
   border-radius: 5px;
   cursor: pointer;
   transition: all 0.4s;
