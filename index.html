@@ -835,7 +835,7 @@
               <p class="project__description">
                 Contact me now and and let's get started with your project!
               </p>
-              <a href="#" class="button button--flex button--white">
+              <a href="#contact" class="button button--flex button--white">
                 Contact Me
                 <i class="uil uil-message button__icon"></i>
               </a>
@@ -982,42 +982,36 @@
             </div>
           </div>
 
-          <form action="mainto:ariadna.vanegas@gmail.com" method="POST"
+          <form action="mailto:ariadna.vanegas@gmail.com" method="POST"
           enctype="multipart/form-data"
           name="EmailForm"
           class="contact__form grid">
-            <div class="contact__inputs grid">
-              <div class="contact__content">
-                <label for="" class="contact__label">Name</label>
-                <input type="text" class="contact__input" />
-              </div>
-              <div class="contact__content">
-                <label for="" class="contact__label">Email</label>
-                <input type="email" class="contact__input" />
-              </div>
+          <div class="contact__inputs grid">
+            <div class="contact__content">
+              <label for="name" class="contact__label">Name</label>
+              <input type="text" id="name" name="name" class="contact__input" required />
             </div>
             <div class="contact__content">
-              <label for="" class="contact__label">Project</label>
-              <input type="text" class="contact__input" />
+              <label for="email" class="contact__label">Email</label>
+              <input type="email" id="email" name="email" class="contact__input" required />
             </div>
-            <div class="contact__content">
-              <label for="" class="contact__label">Message</label>
-              <textarea
-                name=""
-                id=""
-                cols="0"
-                rows="7"
-                class="contact__input"
-              ></textarea>
-            </div>
-
-            <div>
-              <a href="#" class="button button--flex">
-                Send Message
-                <i class="uil uil-message button__icon"></i>
-              </a>
-            </div>
-          </form>
+          </div>
+          <div class="contact__content">
+            <label for="project" class="contact__label">Project</label>
+            <input type="text" id="project" name="project" class="contact__input" required />
+          </div>
+          <div class="contact__content">
+            <label for="message" class="contact__label">Message</label>
+            <textarea name="message" id="message" cols="0" rows="7" class="contact__input" required></textarea>
+          </div>
+        
+          <div>
+            <button type="submit" class="button button--flex">
+              Send Message
+              <i class="uil uil-message button__icon"></i>
+            </button>
+          </div>
+        </form>
         </div>
       </section>
     </main>
