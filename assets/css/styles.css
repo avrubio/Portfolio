@@ -517,7 +517,11 @@ button {
 }
 
 .skills__react {
-  width: 85%;
+  width: 50%;
+}
+
+.skills__typescript {
+  width: 25%;
 }
 
 .skills__java {
@@ -528,11 +532,11 @@ button {
   width: 70%;
 }
 
-.skills__firebase {
-  width: 90%;
+.skills__postgres {
+  width: 50%;
 }
 
-.skills__python {
+.skills__springboot {
   width: 55%;
 }
 
@@ -959,6 +963,7 @@ button {
   text-align: center;
   color: var(--text-color-light);
   margin-top: var(--mb-3);
+  font-size: 6px;
 }
 
 .footer__title,
