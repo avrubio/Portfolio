@@ -511,6 +511,9 @@ button {
 .skills__css {
   width: 70%;
 }
+.skills__materialui {
+  width: 20%;
+}
 
 .skills__js {
   width: 60%;
