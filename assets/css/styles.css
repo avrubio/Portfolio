@@ -125,7 +125,7 @@ a {
 }
 
 img {
-  max-width: 100%;
+  /* max-width: 100%; */
   height: auto;
 }
 
@@ -399,7 +399,7 @@ button {
 
 /*==================== ABOUT ====================*/
 .about__img {
-  width: 200px;
+  width: 400px;
   border-radius: 0.5rem;
   justify-self: center;
   align-self: center;
@@ -407,13 +407,16 @@ button {
 
 .about__description {
   text-align: center;
-  margin-bottom: var(--mb-2-5);
+  font-size: 16px;
+  width: 360px;
+  margin-top: 10px;
 }
 
 .about__info {
   display: flex;
   justify-content: space-evenly;
   margin-bottom: var(--mb-2-5);
+  margin-top: 10px;
 }
 
 .about__info-title {
@@ -599,10 +602,13 @@ button {
 
 .qualification__data {
   display: grid;
-  grid-template-columns: 1fr max-content 1fr;
+  grid-template-columns: 400px max-content 400px;
   column-gap: 1.5rem;
 }
 
+.right_aligned_data {
+  text-align: right;
+}
 .qualification__title {
   font-size: var(--normal-font-size);
   font-weight: var(--font-medium);
