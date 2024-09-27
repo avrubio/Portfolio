@@ -334,7 +334,9 @@ img {
     }
   }
 }
-
+.right_aligned_data {
+  text-align: right;
+}
 /*========== BUTTONS ==========*/
 .button {
   display: inline-block;
@@ -390,11 +392,15 @@ img {
   }
   &__description {
     text-align: center;
+    font-size: 16px;
+    width: 360px;
+    margin-top: 10px;
   }
   &__info {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2-5);
+    margin-top: 10px;
 
     &-title {
       font-size: var(--h2-font-size);
