@@ -127,7 +127,7 @@ a {
   text-decoration: none;
 }
 img {
-  // max-width: 100%;
+  max-width: 100%;
   height: auto;
 }
 
@@ -334,9 +334,7 @@ img {
     }
   }
 }
-.right_aligned_data {
-  text-align: right;
-}
+
 /*========== BUTTONS ==========*/
 .button {
   display: inline-block;
@@ -385,22 +383,19 @@ img {
 /*==================== ABOUT ====================*/
 .about {
   &__img {
-    width: 400px;
+    width: 200px;
     border-radius: 0.5rem;
     justify-self: center;
     align-self: center;
   }
   &__description {
     text-align: center;
-    font-size: 16px;
-    width: 360px;
-    margin-top: 10px;
+    margin-bottom: var(--mb-2-5);
   }
   &__info {
     display: flex;
     justify-content: space-evenly;
     margin-bottom: var(--mb-2-5);
-    margin-top: 10px;
 
     &-title {
       font-size: var(--h2-font-size);
@@ -489,7 +484,6 @@ img {
   &__react {
     width: 85%;
   }
-
   &__php {
     width: 80%;
   }
@@ -547,7 +541,7 @@ img {
   }
   &__data {
     display: grid;
-    grid-template-columns: 400px max-content 400px;
+    grid-template-columns: 1fr max-content 1fr;
     column-gap: 1.5rem;
   }
   &__title {
